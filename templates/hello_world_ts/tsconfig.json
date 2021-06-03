@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "strict": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "allowSyntheticDefaultImports": false,
+    "esModuleInterop": false,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2018.AsyncIterable",
+      "ES2020.Promise",
+      "ES2020.String",
+      "ES2019.Array",
+      "ES2018",
+    ],
+    "outDir": "lib/"
+  },
+  "files": [
+    "./main.ts"
+  ]
+}
